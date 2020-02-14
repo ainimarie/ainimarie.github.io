@@ -1,3 +1,7 @@
-.current { color: green; }
+body { background-color: #FCFFFA; color: #191919; font: 100% monospace; }
+
+main { width: 70%; margin: auto; }
+
+.current { color: olive; }
 
 /*# sourceMappingURL=styles.css.map */

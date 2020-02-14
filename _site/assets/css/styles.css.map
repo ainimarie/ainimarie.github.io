@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
-		".current {\n    color: green;\n}"
+		"$bgcolor: #FCFFFA;\n$textcolor: #191919 ;\n$fontstack: monospace;\n\nbody {\n    background-color: $bgcolor;\n    color: $textcolor;\n    font: 100% $fontstack;\n}\n\nmain {\n    width: 70%;\n    margin: auto;\n}\n\n.current {\n    color: olive;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf"
+	"mappings": "ACIA,AAAA,IAAI,CAAC,EACD,gBAAgB,EALV,OAAO,EAMb,KAAK,EALG,OAAO,EAMf,IAAI,EAAE,IAAI,CALF,SAAS,GAMpB;;AAED,AAAA,IAAI,CAAC,EACD,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf"
 }

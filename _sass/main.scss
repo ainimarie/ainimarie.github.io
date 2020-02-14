@@ -1,3 +1,18 @@
+$bgcolor: #FCFFFA;
+$textcolor: #191919 ;
+$fontstack: monospace;
+
+body {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font: 100% $fontstack;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
 .current {
-    color: green;
+    color: olive;
 }
