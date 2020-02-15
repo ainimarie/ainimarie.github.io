@@ -3,21 +3,31 @@
 
 html { font-size: 16px; }
 
-body { background-color: #FCFFFA; color: #191919; font: 1rem monospace; line-height: 1.6rem; }
+body { background-color: #fdfcfa; color: #191919; font: 1rem monospace; line-height: 1.6rem; }
 
-header { background-color: #fff600; padding: 1rem 5rem; }
+header { padding: 1rem 15%; }
 
 header h1 { font: 3rem "Tomorrow"; letter-spacing: 1.4rem; }
 
-main { width: 70%; margin: auto; }
+main { width: 60%; margin: auto; }
 
-main p { padding: 1.2rem; }
+main p { padding: 1rem 1.2rem 0; }
 
-main .img-small { width: 200px; margin: 1rem; }
+main .img-small { width: 400px; }
 
-nav { padding: 0 5rem; }
+hr { color: #CCC9CC; margin: 2rem 15%; }
 
-nav a { margin: 0 2rem 0 0; }
+.item { display: flex; margin-bottom: 1rem; }
+
+.item .image-box { flex: 1 0 20%; display: flex; }
+
+.item .description-box { flex: 1 0 70%; }
+
+.item .description-box h2 { font: 1.5rem "Tomorrow"; margin: 1rem; }
+
+nav { font: 1.5rem "Tomorrow"; }
+
+nav a { margin: 0 2rem 0 0; text-transform: lowercase; color: black; }
 
 nav .current { color: olive; }
 

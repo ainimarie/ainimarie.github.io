@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
 
-$bgcolor: #FCFFFA;
-$secondarybg: #fff600;
+$bgcolor: #fdfcfa;
+$secondarybg: #CCC9CC;
 $textcolor: #191919 ;
 $fontstack: monospace;
 $fonttitle: 'Tomorrow';
@@ -22,8 +22,7 @@ body {
 }
 
 header {
-    background-color: $secondarybg;
-    padding: 1rem 5rem;
+    padding: 1rem 15%;
 
     h1 {
         font: 3rem $fonttitle;
@@ -32,23 +31,48 @@ header {
 }
 
 main {
-    width: 70%;
+    width: 60%;
     margin: auto;
     
     p {
-        padding: 1.2rem;
+        padding: 1rem 1.2rem 0;
     }
 
     .img-small {
-        width:200px;
-        margin: 1rem;
+        width:400px;
+    }
+}
+
+hr {
+    color: $secondarybg;
+    margin: 2rem 15%;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 1rem;
+    
+    .image-box{
+        flex: 1 0 20%;
+        display: flex;
+    }
+    .description-box{
+        flex: 1 0 70%;
+        h2 {
+            font: 1.5rem $fonttitle;
+            margin: 1rem;
+        }
+
     }
 }
 
 nav {
-    padding: 0 5rem;
+    font: 1.5rem $fonttitle;
+
     a {
         margin: 0 2rem 0 0;
+        text-transform: lowercase;
+        color: black;
     }
     .current {
         color: olive;
