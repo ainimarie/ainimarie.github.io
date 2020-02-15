@@ -1,18 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+
 $bgcolor: #FCFFFA;
+$secondarybg: #fff600;
 $textcolor: #191919 ;
 $fontstack: monospace;
+$fonttitle: 'Tomorrow';
+
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
 
 body {
     background-color: $bgcolor;
     color: $textcolor;
-    font: 100% $fontstack;
+    font: 1rem $fontstack;
+    line-height: 1.6rem;
+}
+
+header {
+    background-color: $secondarybg;
+    padding: 1rem 5rem;
+
+    h1 {
+        font: 3rem $fonttitle;
+        letter-spacing: 1.4rem;
+    }
 }
 
 main {
     width: 70%;
     margin: auto;
+    
+    p {
+        padding: 1.2rem;
+    }
+
+    .img-small {
+        width:200px;
+        margin: 1rem;
+    }
 }
 
-.current {
-    color: olive;
+nav {
+    padding: 0 5rem;
+    a {
+        margin: 0 2rem 0 0;
+    }
+    .current {
+        color: olive;
+    }
 }

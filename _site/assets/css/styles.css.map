@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
-		"$bgcolor: #FCFFFA;\n$textcolor: #191919 ;\n$fontstack: monospace;\n\nbody {\n    background-color: $bgcolor;\n    color: $textcolor;\n    font: 100% $fontstack;\n}\n\nmain {\n    width: 70%;\n    margin: auto;\n}\n\n.current {\n    color: olive;\n}"
+		"@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');\n\n$bgcolor: #FCFFFA;\n$secondarybg: #fff600;\n$textcolor: #191919 ;\n$fontstack: monospace;\n$fonttitle: 'Tomorrow';\n\n* {\n    margin: 0;\n}\n\nhtml {\n    font-size: 16px;\n}\n\nbody {\n    background-color: $bgcolor;\n    color: $textcolor;\n    font: 1rem $fontstack;\n    line-height: 1.6rem;\n}\n\nheader {\n    background-color: $secondarybg;\n    padding: 1rem 5rem;\n\n    h1 {\n        font: 3rem $fonttitle;\n        letter-spacing: 1.4rem;\n    }\n}\n\nmain {\n    width: 70%;\n    margin: auto;\n    \n    p {\n        padding: 1.2rem;\n    }\n\n    .img-small {\n        width:200px;\n        margin: 1rem;\n    }\n}\n\nnav {\n    padding: 0 5rem;\n    a {\n        margin: 0 2rem 0 0;\n    }\n    .current {\n        color: olive;\n    }\n}"
 	],
 	"names": [],
-	"mappings": "ACIA,AAAA,IAAI,CAAC,EACD,gBAAgB,EALV,OAAO,EAMb,KAAK,EALG,OAAO,EAMf,IAAI,EAAE,IAAI,CALF,SAAS,GAMpB;;AAED,AAAA,IAAI,CAAC,EACD,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf"
+	"mappings": "ACAA,OAAO,CAAC,oEAAI;AAQZ,AAAA,CAAC,CAAC,EACE,MAAM,EAAE,CAAC,GACZ;;AAED,AAAA,IAAI,CAAC,EACD,SAAS,EAAE,IAAI,GAClB;;AAED,AAAA,IAAI,CAAC,EACD,gBAAgB,EAfV,OAAO,EAgBb,KAAK,EAdG,OAAO,EAef,IAAI,EAAE,IAAI,CAdF,SAAS,EAejB,WAAW,EAAE,MAAM,GACtB;;AAED,AAAA,MAAM,CAAC,EACH,gBAAgB,EArBN,OAAO,EAsBjB,OAAO,EAAE,SAAS,GAMrB;;AARD,AAII,MAJE,CAIF,EAAE,CAAC,EACC,IAAI,EAAE,IAAI,CAtBN,UAAU,EAuBd,cAAc,EAAE,MAAM,GACzB;;AAGL,AAAA,IAAI,CAAC,EACD,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,IAAI,GAUf;;AAZD,AAII,IAJA,CAIA,CAAC,CAAC,EACE,OAAO,EAAE,MAAM,GAClB;;AANL,AAQI,IARA,CAQA,UAAU,CAAC,EACP,KAAK,EAAC,KAAK,EACX,MAAM,EAAE,IAAI,GACf;;AAGL,AAAA,GAAG,CAAC,EACA,OAAO,EAAE,MAAM,GAOlB;;AARD,AAEI,GAFD,CAEC,CAAC,CAAC,EACE,MAAM,EAAE,UAAU,GACrB;;AAJL,AAKI,GALD,CAKC,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf"
 }
