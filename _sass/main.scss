@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tomorrow|Ubuntu+Mono&display=swap');
 
 $bgcolor: #fdfcfa;
 $secondarybg: #CCC9CC;
-$textcolor: #191919 ;
-$fontstack: monospace;
+$textcolor: rgb(25, 25, 25) ;
+$fontstack: 'Ubuntu Mono';
 $fonttitle: 'Tomorrow';
 
 * {
@@ -21,15 +21,6 @@ body {
     line-height: 1.6rem;
 }
 
-header {
-    padding: 1rem 15%;
-
-    h1 {
-        font: 3rem $fonttitle;
-        letter-spacing: 1.4rem;
-    }
-}
-
 main {
     width: 60%;
     margin: auto;
@@ -39,8 +30,12 @@ main {
     }
 
     .img-small {
-        width:400px;
+        width:40%;
     }
+}
+.full-content {
+    height: 100vh;
+    padding: 3rem;
 }
 
 hr {
@@ -49,21 +44,22 @@ hr {
 }
 
 .item {
-    display: flex;
-    margin-bottom: 1rem;
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: 30% auto;
+    grid-gap: 1rem;
     
-    .image-box{
-        flex: 1 0 20%;
-        display: flex;
+    img {
+        width:100%;
     }
+     
     .description-box{
-        flex: 1 0 70%;
         h2 {
             font: 1.5rem $fonttitle;
+            text-transform: uppercase;
             margin: 1rem;
         }
-
-    }
+    }   
 }
 
 nav {
@@ -71,7 +67,7 @@ nav {
 
     a {
         margin: 0 2rem 0 0;
-        text-transform: lowercase;
+        text-transform: uppercase;
         color: black;
     }
     .current {

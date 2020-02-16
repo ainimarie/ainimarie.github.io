@@ -1,0 +1,22 @@
+header {
+    height: 100vh;
+    width: 100%;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto 150px;
+    grid-gap: 1rem;
+
+    .header-title {
+        h1 {
+            font: 3rem $fonttitle;
+            letter-spacing: 1.4rem;
+        }
+    }
+    .header-nav {
+        text-align:left;
+        a:hover{
+            color: olive;
+        }
+    }
+}

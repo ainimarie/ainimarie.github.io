@@ -1,0 +1,44 @@
+I"™
+<div id="about" class="full-content">
+    <p><img src="/assets/images/aini.jpg" alt="hi I'm small!" class="img-small" /></p>
+
+<p>Hello, Iâ€™m Aini. I like to build things.</p>
+
+<p>This page would tell you a little bit about me if I had written it</p>
+
+<p>Some text to test out the line-height because who needs lorem ipsum right? Lorem ipsum with cat and foxes and dogs and bunnies and dust balls and coffee cups and tea cups and marshmallows;</p>
+
+
+</div>
+
+<div id="portfolio" class="full-content">
+    
+    <div class="item">
+        <div class="image-box">
+            <img src="assets/images/p1.jpg" />
+        </div>
+        <div class="description-box">
+        <h2>project 1</h2>
+        <p>Some awesome project. Lorem ipsum and all that crap to get a lot of lines so I can see how this looks!</p>
+    </div>
+    </div>
+    
+    <div class="item">
+        <div class="image-box">
+            <img src="assets/images/p2.jpg" />
+        </div>
+        <div class="description-box">
+        <h2>project CATBUS</h2>
+        <p>Small project.</p>
+    </div>
+    </div>
+    
+
+</div>
+
+<div id="contact" class="full-content">
+    <p>e-mail me: ainimarie@gmail.com</p>
+
+
+</div>
+:ET
