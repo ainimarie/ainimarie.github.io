@@ -33,16 +33,20 @@ main {
         width:40%;
     }
 }
+
 .full-content {
     height: 100vh;
     padding: 3rem;
 }
 
-hr {
-    color: $secondarybg;
-    margin: 2rem 15%;
+a {
+    color: olive;
 }
 
+a:hover {
+    color: $textcolor;
+    text-decoration: none;
+}
 .item {
     display: grid;
     align-content: space-evenly;

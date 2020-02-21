@@ -1,6 +1,4 @@
-
-<div id="/about">
-    <table>
+I"u<table>
   <thead>
     <tr>
       <th style="text-align: center"><img src="/assets/images/aini.jpg" alt="a small Aini" class="img-small" /></th>
@@ -15,7 +13,7 @@
 
 <p>Hello, I’m Aini. I started web-development in the early 2000 and then forgot about it for a couple of years <del>because it wasn’t cool when I was a teenager</del>.</p>
 
-<p>My approach to everything is to try until you succeed and I’m a firm believer in lifelong learning.</p>
+<p>My approach to everything is to try until you succeed and I’m believe in lifelong learner.</p>
 
 <table>
   <thead>
@@ -50,5 +48,5 @@
 
 <p><a href="cv.pdf">download CV in finnish</a></p>
 
-
-</div>
+<p>This page would tell you a little bit about me if I had written it.</p>
+:ET

@@ -9,7 +9,10 @@ collections:
   pages:
     output: true
     permalink: /:path/
-    
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge

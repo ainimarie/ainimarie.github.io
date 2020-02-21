@@ -1,6 +1,4 @@
-
-<div id="/about">
-    <table>
+I"2<table>
   <thead>
     <tr>
       <th style="text-align: center"><img src="/assets/images/aini.jpg" alt="a small Aini" class="img-small" /></th>
@@ -49,6 +47,4 @@
 </table>
 
 <p><a href="cv.pdf">download CV in finnish</a></p>
-
-
-</div>
+:ET

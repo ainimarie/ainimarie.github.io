@@ -3,7 +3,7 @@ layout: section
 permalink: /portfolio
 tag: portfolio
 ---
-
+<!-- 
 {% for item in site.data.projects %}
     <div class="item">
         <div class="image-box">
@@ -14,4 +14,13 @@ tag: portfolio
         <p>{{ item.desc }}</p>
     </div>
     </div>
-    {% endfor %}
+    {% endfor %} -->
+
+    {% for page in site.portfolio %}
+    <h2>
+      <a href="{{ page.url }}">
+        {{ page.name }}
+      </a>
+    </h2>
+    <p>{{ page.content | markdownify }}</p>
+  {% endfor %}

@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/assets/css/styles.css">
-        <title>ainimarie</title>
-    </head>
-<body>
-    <header>
-    <div class="header-title">
-        <h1>aini hyvärinen</h1>
-    </div>
-        <div class="header-nav">
-            <nav>
-    
-    <p><a href="/" class="current">
-        Home
-    </a></p>
-    
-    <p><a href="#about" >
-        About / CV
-    </a></p>
-    
-    <p><a href="#portfolio" >
-        Portfolio
-    </a></p>
-    
-    <p><a href="#contact" >
-        Contact
-    </a></p>
-    
-</nav>
-        </div>
-</header>
-    <main>
-        
+I"�
 <div id="about" class="full-content">
     <table>
   <thead>
@@ -51,7 +15,7 @@
 
 <p>Hello, I’m Aini. I started web-development in the early 2000 and then forgot about it for a couple of years <del>because it wasn’t cool when I was a teenager</del>.</p>
 
-<p>My approach to everything is to try until you succeed and I’m a firm believer in lifelong learning.</p>
+<p>My approach to everything is to try until you succeed and I’m a lifetime learner.</p>
 
 <table>
   <thead>
@@ -85,6 +49,8 @@
 </table>
 
 <p><a href="cv.pdf">download CV in finnish</a></p>
+
+<p>This page would tell you a little bit about me if I had written it.</p>
 
 
 </div>
@@ -134,7 +100,4 @@
 
 
 </div>
-
-    </main>
-</body>
-</html>
+:ET

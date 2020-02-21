@@ -1,6 +1,4 @@
-
-<div id="/about">
-    <table>
+I"�<table>
   <thead>
     <tr>
       <th style="text-align: center"><img src="/assets/images/aini.jpg" alt="a small Aini" class="img-small" /></th>
@@ -20,35 +18,35 @@
 <table>
   <thead>
     <tr>
-      <th>Programming</th>
-      <th>Other</th>
+      <th style="text-align: center">Programming</th>
+      <th style="text-align: center">Other</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>JavaScript</td>
-      <td>Finnish</td>
+      <td style="text-align: center">JavaScript</td>
+      <td style="text-align: center">Finnish</td>
     </tr>
     <tr>
-      <td>C#</td>
-      <td>English</td>
+      <td style="text-align: center">C#</td>
+      <td style="text-align: center">English</td>
     </tr>
     <tr>
-      <td>Python</td>
-      <td>French</td>
+      <td style="text-align: center">Python</td>
+      <td style="text-align: center">French</td>
     </tr>
     <tr>
-      <td>SASS</td>
-      <td> </td>
+      <td style="text-align: center">SASS</td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td>HTML5/CSS</td>
-      <td> </td>
+      <td style="text-align: center">HTML5/CSS</td>
+      <td style="text-align: center"> </td>
     </tr>
   </tbody>
 </table>
 
 <p><a href="cv.pdf">download CV in finnish</a></p>
 
-
-</div>
+<p>This page would tell you a little bit about me if I had written it.</p>
+:ET

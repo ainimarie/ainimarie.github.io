@@ -13,7 +13,9 @@ main .img-small { width: 40%; }
 
 .full-content { height: 100vh; padding: 3rem; }
 
-hr { color: #CCC9CC; margin: 2rem 15%; }
+a { color: olive; }
+
+a:hover { color: #191919; text-decoration: none; }
 
 .item { display: grid; align-content: space-evenly; grid-template-columns: 30% auto; grid-gap: 1rem; }
 
