@@ -31,9 +31,13 @@ nav .current { color: olive; }
 
 header { height: 100vh; width: 100%; display: grid; justify-content: center; align-items: center; grid-template-columns: auto 150px; grid-gap: 1rem; }
 
+header.small { height: 10%; justify-content: left; grid-template-rows: auto; }
+
 header .header-title h1 { font: 3rem "Tomorrow"; letter-spacing: 1.4rem; }
 
 header .header-nav { text-align: left; }
+
+header .header-nav a:after { content: "\A"; }
 
 header .header-nav a:hover { color: olive; }
 

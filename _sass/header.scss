@@ -7,6 +7,12 @@ header {
     grid-template-columns: auto 150px;
     grid-gap: 1rem;
 
+    &.small {
+        height: 10%;
+        justify-content: left;
+        grid-template-rows: auto;
+    }
+
     .header-title {
         h1 {
             font: 3rem $fonttitle;
@@ -15,6 +21,9 @@ header {
     }
     .header-nav {
         text-align:left;
+        a:after {
+            content: "\A";
+          }
         a:hover{
             color: olive;
         }
