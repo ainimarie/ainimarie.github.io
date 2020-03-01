@@ -3,6 +3,7 @@
 $bgcolor: #fdfcfa;
 $secondarybg: #CCC9CC;
 $textcolor: rgb(25, 25, 25) ;
+$linkcolor: olive;
 $fontstack: 'Ubuntu Mono';
 $fonttitle: 'Tomorrow';
 
@@ -12,6 +13,7 @@ $fonttitle: 'Tomorrow';
 
 html {
     font-size: 16px;
+    height: 100%;
 }
 
 body {
@@ -19,9 +21,14 @@ body {
     color: $textcolor;
     font: 1rem $fontstack;
     line-height: 1.6rem;
+    height: 100%;
 }
 
 main {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
     width: 60%;
     margin: auto;
     
@@ -40,7 +47,7 @@ main {
 }
 
 a {
-    color: olive;
+    color: $linkcolor;
 
     &:hover {
         color: $textcolor;
@@ -75,6 +82,6 @@ nav {
         color: black;
     }
     .current {
-        color: olive;
+        color: $linkcolor;;
     }
 }

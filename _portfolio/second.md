@@ -2,7 +2,7 @@
 
 name: Awesome Project
 layout: portfolio-page
-image: assets/images/p1.jpg
+image: /assets/images/p1.jpg
 description: awesome project with some awesome technology
 
 ---

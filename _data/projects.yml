@@ -1,9 +1,0 @@
-- name: project 1
-  link: project-1
-  image: assets/images/p1.jpg
-  desc: Some awesome project. Lorem ipsum and all that crap to get a lot of lines so I can see how this looks!
-
-- name: project CATBUS
-  link: project-2
-  image: assets/images/p2.jpg
-  desc: Small project.

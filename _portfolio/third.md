@@ -2,7 +2,7 @@
 
 name: CATBUS
 layout: portfolio-page
-image: assets/images/p2.jpg
+image: /assets/images/p2.jpg
 description: awesome project with some awesome technology
 
 ---

@@ -1,38 +1,4 @@
-
-    <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/assets/css/styles.css">
-        <link rel="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <title>ainimarie</title>
-    </head>
-<body>
-<header>
-    <div class="header-title">
-        <h1>aini hyv√§rinen</h1>
-    </div>
-        <div class="header-nav">
-            <nav>
-    
-
-        <a href="/" class="current">Home</a>
-    
-
-        <a href="#about" >About / CV</a>
-    
-
-        <a href="#portfolio" >Portfolio</a>
-    
-
-        <a href="#contact" >Contact</a>
-    
-</nav>
-        </div>
-</header>
-    <main>
-        
+I"œ
 <div id="about" class="full-content">
     <table>
   <thead>
@@ -187,10 +153,4 @@ function sayHello(name, id){
 
 
 </div>
-
-    </main>
-        <footer>
-        <p>&copy; Aini - <a href="https://github.com/ainimarie"><i class="fi-[elevator]"></i></a></p>
-    </footer>
-</body>
-</html>
+:ET
