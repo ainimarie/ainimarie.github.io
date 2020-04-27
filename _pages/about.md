@@ -13,14 +13,14 @@ Hello, I'm Aini. I started web-development in the early 2000 and then forgot abo
 My approach to everything is to try until you succeed and I'm a firm believer in lifelong learning.
 
 
-| Programming | Spoken Languages | Misc.
+<!-- | Programming | Spoken Languages | Misc.
 |---|---|---
 |JavaScript | Finnish | Photoshop
 |C#|English|Illustrator
 |Python|French|
 |SASS|
-|HTML5/CSS|
-
+|HTML5/CSS| -->
+<!-- 
 [download CV in finnish](cv.pdf)
 
-[download CV in english](cv.pdf)
+[download CV in english](cv.pdf) -->

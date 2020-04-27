@@ -1,4 +1,4 @@
-I"�
+I"
 <div id="about" class="full-content">
     <table>
   <thead>
@@ -17,46 +17,17 @@
 
 <p>My approach to everything is to try until you succeed and I’m a firm believer in lifelong learning.</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Programming</th>
-      <th>Spoken Languages</th>
-      <th>Misc.</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>JavaScript</td>
-      <td>Finnish</td>
-      <td>Photoshop</td>
-    </tr>
-    <tr>
-      <td>C#</td>
-      <td>English</td>
-      <td>Illustrator</td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>French</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>SASS</td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>HTML5/CSS</td>
-      <td> </td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<!-- | Programming | Spoken Languages | Misc.
+|---|---|---
+|JavaScript | Finnish | Photoshop
+|C#|English|Illustrator
+|Python|French|
+|SASS|
+|HTML5/CSS| -->
+<!-- 
+[download CV in finnish](cv.pdf)
 
-<p><a href="cv.pdf">download CV in finnish</a></p>
-
-<p><a href="cv.pdf">download CV in english</a></p>
+[download CV in english](cv.pdf) -->
 
 
 </div>
@@ -66,14 +37,14 @@
 
     <div class="item">
         <div class="image-box">
-            <a href="/portfolio/first">
-                <img src="/assets/images/p1.jpg" /> 
+            <a href="/portfolio/kettupeli">
+                <img src="/assets/images/kettupeli.jpg" /> 
             </a>
         </div>
         <div class="description-box">
-            <a href="/portfolio/first">
-                <h2>Awesome Project</h2>
-                <p>awesome project with some awesome technology</p>
+            <a href="/portfolio/kettupeli">
+                <h2>Kettupeli</h2>
+                <p>Simple game with Unity3D</p>
             </a>
         </div>
     </div>
@@ -111,18 +82,13 @@
 
     <!-- 
     <h2>
-      <a href="/portfolio/first">
-        Awesome Project
+      <a href="/portfolio/kettupeli">
+        Kettupeli
       </a>
     </h2>
-    <p><p>{% highlight javascript linenos %}
-function sayHello(name, id){
-    var div = document.getElementById(<code class="highlighter-rouge">${id}</code>);
-    div.innerHTML = name;
-}
-{% endhighlight %}</p>
+    <p><p>Catch stars while running around as a fox!</p>
 
-<p>Our feature set is second to none, but our vertical, customized efficient, user-centric TQM and non-complex configuration is frequently considered a terrific achievement. Without efficient, transparent bloatware, you will lack architectures. Quick: do you have a plan to become proactive. Without interfaces, you will lack architectures. We apply the proverb ‘The proof of the customer journey. We pride ourselves not only on our robust feature set, but our non-complex administration and newbie-proof use. We understand that it is better to exploit macro-magnetically than to streamline magnetically than to revolutionize transparently. Without preplanned cyber-Total Quality Control, aggregation are forced to become cross-media? We think that most C2C2C web-based applications use far too much Rails, and not enough HTTP. If you incentivize dynamically, you may also disintermediate perfectly. The capability to implement wirelessly leads to the awards page of the customer journey. A company that can streamline elegantly will (at some undefined point of time in the future) be able to engineer seamlessly. Without development, you will lack affiliate-based compliance. Our end-to-end feature set is unparalleled, but our C2C2C paradigms and easy use is frequently considered a terrific achievement. If all of this comes off as mixed-up to you, that’s because it is! If you productize globally, you may also disintermediate perfectly.</p>
+<p>Demo available <a href="http://m1468.pages.labranet.jamk.fi/kettupeli/">here</a>.</p>
 </p>
   
     <h2>
