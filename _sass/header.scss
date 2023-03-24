@@ -29,3 +29,36 @@ header {
         }
     }
 }
+
+@media only screen and (max-width: 900px) {
+ header {
+    height: 100vh;
+    width: 100%;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+    &.small {
+        height: 10%;
+        justify-content: left;
+        grid-template-rows: auto;
+    }
+
+    .header-title {
+        h1 {
+            font: 1rem $fonttitle;
+            letter-spacing: 1.1rem;
+        }
+    }
+    .header-nav {
+        text-align:left;
+        a:after {
+            content: "\A";
+          }
+        a:hover{
+            color: olive;
+        }
+    }
+}   
+}

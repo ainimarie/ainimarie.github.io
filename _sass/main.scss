@@ -82,6 +82,32 @@ nav {
         color: black;
     }
     .current {
-        color: $linkcolor;;
+        color: $linkcolor;
     }
+}
+
+@media only screen and (max-width: 900px) {
+    
+main {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    width: 100%;
+    margin: auto;
+    
+    p {
+        padding: 1rem 1.2rem 0;
+    }
+
+    .img-small {
+        width:40%;
+    }
+} 
+
+
+.full-content {
+    height: 100%;
+    padding: 0.2rem 1rem;
+}
 }
