@@ -4,7 +4,7 @@ permalink: /contact/
 tag: contact
 ---
 
-e-mail me: ainimarie@gmail.com
+ainimarie@gmail.com
 
 ainimarie @ github
 
