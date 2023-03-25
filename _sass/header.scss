@@ -23,6 +23,7 @@ header {
         text-align:left;
         a:after {
             content: "\A";
+            white-space: pre-wrap;
           }
         a:hover{
             color: olive;
@@ -35,8 +36,10 @@ header {
     height: 100vh;
     width: 100%;
     display:grid;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    align-content: center;
+    justify-items: start;
     grid-template-columns: auto;
     grid-gap: 1rem;
     &.small {
@@ -52,10 +55,10 @@ header {
         }
     }
     .header-nav {
-        text-align:left;
-        a:after {
-            content: "\A";
-          }
+        a {
+            text-transform: lowercase;
+            font-size: 1rem;
+        }
         a:hover{
             color: olive;
         }

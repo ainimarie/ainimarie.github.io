@@ -7,5 +7,9 @@ _site
 .bundle/
 vendor/
 
+# github pages won't look for these
+Gemfile
+Gemfile.lock
+
 _portfolio/second.md
 _portfolio/third.md
